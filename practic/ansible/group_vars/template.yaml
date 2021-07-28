@@ -1,0 +1,9 @@
+- name: Template Example
+  hosts: all
+  become: yes
+ 
+  tasks:
+  - name: Create config file
+    template:
+      src: config.j2
+      dest: /home/ansible/config

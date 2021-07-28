@@ -1,0 +1,17 @@
+- name: Block example
+  hosts: all
+  become: yes
+ 
+  tasks:
+    - block:
+        - name: Create Folder
+          file:
+            path: "/home/ansible/{{item}}"
+            state: directory
+          loop:
+            - when_dir
+        - name: Task yum update
+          yum:
+            update_cache: yes
+ 
+      when: ansible_hostname == "node2"

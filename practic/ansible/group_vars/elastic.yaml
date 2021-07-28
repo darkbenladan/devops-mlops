@@ -1,0 +1,28 @@
+- name: Ping Servers
+  hosts: all
+  become: yes
+ 
+  vars:
+    packages:
+      - net-tools
+      - tree
+      - htop
+ 
+  tasks:
+  - name: Task ping
+    ping:
+ 
+  - name: Task yum update
+    yum:
+      update_cache: yes
+ 
+  - name: Installing package
+    yum:
+      name: "{{packages}}"
+      state: latest
+ 
+  - name: Copy File
+    copy:
+      src: test.txt
+      dest: /home/ansible/files
+      mode: 0777

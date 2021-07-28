@@ -1,0 +1,13 @@
+- name: My Loop
+  hosts: all
+  become: yes
+ 
+  tasks:
+ 
+  - name: Create Folder
+    file:
+      path: "/home/ansible/{{item}}"
+      state: directory
+    loop:
+      - test_dir_1
+      - test_dir_2
