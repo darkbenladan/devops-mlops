@@ -1,0 +1,32 @@
+tages:          # List of stages for jobs, and their order of execution
+  - build
+  - test
+  - deploy
+
+Docker build:
+   stage: build
+   script:
+       - echo "Stage docker build successful"
+   tags:
+       - docker
+
+Unit test:
+   stage: test
+   script:
+       - echo "Unit test successful"
+   tags:
+       - docker
+ 
+Linters test:
+   stage: test
+   script:
+       - echo "Linter test successful"
+   tags:
+       - docker
+
+Deploy to Dev:
+    stage: deploy
+    script:
+        - echo "${CI_PROJECT_NAME} from branch ${CI_PROJECT_PATH_SLUG}" > ./build.txt
+    tags:
+        - test
