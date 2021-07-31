@@ -11,12 +11,17 @@
 ## «MLOps»
 
 1.2 [x] [Docker] (Docker/README.md)
+
 1.3 [x] [k8s] (k8s/README.md)
+
 1.4 [x] [Ansible] (Ansible/README.md)
+
 1.5 [x] [GitlabCI] (GitlabCI/README.md)
 
 ## Дополнительные материалы для Практик к лекциям
 
 1. [x] [Docker](practic/docker/README.md)
+
 2. [x] [Ansible](practic/ansible/README.md)
+
 3. [x] [Docker](practic/gitlabci/README.md)
