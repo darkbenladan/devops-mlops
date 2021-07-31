@@ -20,8 +20,8 @@
 
 ## Дополнительные материалы для Практик к лекциям
 
-1. [x] [Docker](practic/docker/README.md)
+1.1 [x] [Docker](practic/docker/README.md)
 
-2. [x] [Ansible](practic/ansible/README.md)
+2.2 [x] [Ansible](practic/ansible/README.md)
 
-3. [x] [Docker](practic/gitlabci/README.md)
+3.3 [x] [Docker](practic/gitlabci/README.md)
