@@ -10,13 +10,13 @@
 
 ## «MLOps»
 
-1.2 [x] [Docker] (Docker/README.md)
+1.2 [x] [Docker](Docker/README.md)
 
-1.3 [x] [k8s] (k8s/README.md)
+1.3 [x] [k8s](k8s/README.md)
 
-1.4 [x] [Ansible] (Ansible/README.md)
+1.4 [x] [Ansible](Ansible/README.md)
 
-1.5 [x] [GitlabCI] (GitlabCI/README.md)
+1.5 [x] [GitlabCI](GitlabCI/README.md)
 
 ## Дополнительные материалы для Практик к лекциям
 
