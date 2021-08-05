@@ -25,7 +25,9 @@
 - скрин успешности выполнение таска в gitlab
 
 **Инструменты**:
+
 Gitlab - https://docs.gitlab.com/omnibus/manual_install.html 
+
 Gitlab runner - https://docs.gitlab.com/runner/install/linux-repository.html  
 
 
