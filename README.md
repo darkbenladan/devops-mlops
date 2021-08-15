@@ -18,7 +18,7 @@
 
 1.5 [x] [GitlabCI](GitlabCI/README.md)
 
-1.6 [x] [Mlflow] (Mlflow/README.md)
+1.6 [x] [Mlflow](Mlflow/README.md)
 
 ## Дополнительные материалы для Практик к лекциям
 
