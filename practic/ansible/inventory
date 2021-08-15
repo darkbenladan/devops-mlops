@@ -1,10 +1,10 @@
 [all]
-node1 ansible_host=178.154.198.76 ansible_user=ansible ansible_password=ansible
-node2 ansible_host=178.154.198.205 ansible_user=ansible ansible_password=ansible
+node1 ansible_host=10.129.0.4 ansible_user=ansible ansible_password=ansible
+node2 ansible_host=10.129.0.6 ansible_user=ansible ansible_password=ansible
 node3 ansible_host=10.129.0.24 ansible_user=ansible ansible_password=ansible
 
 [group_1]
-178.154.198.76 ansible_host: 178.154.198.76
+10.129.0.4 ansible_host: 10.129.0.4
 
 [group_1:vars]
 ansible_user: ansible
@@ -15,7 +15,7 @@ env=group_1
 position: dev
 
 [group_2]
-178.154.198.205 ansible_host: 178.154.198.205
+10.129.0.6 ansible_host: 10.129.0.6
 
 [group_2:vars]
 ansible_user: ansible

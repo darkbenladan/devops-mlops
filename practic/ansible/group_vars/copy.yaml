@@ -1,0 +1,17 @@
+- name: Copy File
+    copy:
+      src: test.txt
+      dest: /home/ansible/files/
+      mode: 0777
+- name: MC
+    yum:
+      name: mc
+      state: absent
+- name: Installing package
+    yum:
+      name:
+        - net-tools
+        - tree
+        - htop
+        - mc
+      state: latest

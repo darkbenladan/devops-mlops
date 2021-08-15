@@ -1,0 +1,16 @@
+- name: Ping Servers
+  hosts: all
+  become: yes
+ 
+  tasks:
+  - name: Task ping
+    ping:
+ 
+  - name: Task yum update
+    yum:
+      update_cache: yes
+ 
+  - name: Install MC
+    yum:
+      name: mc
+      state: latest
