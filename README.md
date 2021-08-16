@@ -28,4 +28,4 @@
 
 3.3 [x] [Docker](practic/gitlabci/README.md)
 
-3.4 [x] [mflow](practic/mflow/README.md)
+3.4 [x] [mlflow](practic/mlflow/README.md)
