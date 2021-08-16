@@ -26,6 +26,6 @@
 
 2.2 [x] [Ansible](practic/ansible/README.md)
 
-3.3 [x] [Docker](practic/gitlabci/README.md)
+3.3 [x] [GitlabCI](practic/gitlabci/README.md)
 
-3.4 [x] [mlflow](practic/mlflow/README.md)
+3.4 [x] [MLflow](practic/mlflow/README.md)
