@@ -1,0 +1,15 @@
+artifact_uri: file:///home/netology/mlflow_example/mlruns/0/65231773f0464052808867edcb722e04/artifacts
+end_time: 1629025284006
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 65231773f0464052808867edcb722e04
+run_uuid: 65231773f0464052808867edcb722e04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1629025270815
+status: 4
+tags: []
+user_id: root
