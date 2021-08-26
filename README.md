@@ -20,6 +20,8 @@
 
 1.6 [x] [Mlflow](Mlflow/README.md)
 
+1.7 [x] [DeployML] (DeployML/README.md)
+
 ## Дополнительные материалы для Практик к лекциям
 
 1.1 [x] [Docker](practic/docker/README.md)
@@ -29,3 +31,6 @@
 3.3 [x] [GitlabCI](practic/gitlabci/README.md)
 
 3.4 [x] [MLflow](practic/mlflow/README.md)
+
+3.5 [x] [DeployML] (practic/deployml/README.md)
+
