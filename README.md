@@ -18,9 +18,11 @@
 
 1.5 [x] [GitlabCI](GitlabCI/README.md)
 
-1.6 [x] [Mlflow](Mlflow/README.md)
+1.6 [x] [Monitoring](Monitoring/README.md)
 
-1.7 [x] [DeployML](DeployML/README.md)
+1.7 [x] [Mlflow](Mlflow/README.md)
+
+1.8 [x] [DeployML](DeployML/README.md)
 
 ## Дополнительные материалы для Практик к лекциям
 
